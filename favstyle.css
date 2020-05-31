@@ -1,0 +1,48 @@
+body{
+    background-color: #00001a;
+    color:white;
+      font-family:Arial;
+}
+.center
+{
+    text-align: center;
+}
+.colorli{
+    background-color: #00091a;
+}
+li
+{
+    list-style: none;
+    width:800px;
+}
+.alignment
+{
+    margin-left:30%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#div
+{
+    display: flex;
+    width:500px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+
+.notify
+{
+    position: fixed;
+    left:0;
+    bottom:0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height:75px;
+    width:240px;
+    background-color:red ;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    display:none;
+}

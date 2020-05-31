@@ -1,0 +1,66 @@
+
+form {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 0;
+    background-image: linear-gradient(-90deg, floralwhite, azure);
+}
+
+#dropdown {
+    padding: 10px;
+    font-size: 1.4rem;
+    width: 30%;
+    min-width: 200px;
+}
+
+#dropdown option {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+
+form input {
+    padding: 5px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    font-family: monospace;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+a
+{
+    text-decoration: none;
+}
+button:hover {
+    box-shadow: 0px 0px 30px 2px grey;
+}
+.center
+{
+    text-align: center;
+    margin: auto;
+}
+
+.notify
+{
+    position: fixed;
+    left:0;
+    bottom:0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height:75px;
+    width:240px;
+    background-color: green;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    display:none;
+}
+.red
+{
+    background-color: red;
+}
